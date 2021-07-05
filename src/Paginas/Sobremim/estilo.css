@@ -1,0 +1,129 @@
+
+#principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.corpo {
+    height: 600px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "balao"
+                         "boneca";
+}
+
+
+
+.boneca { 
+    z-index: -9;
+    position: relative;
+    top: -8rem;
+    grid-area: boneca;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boneca img {
+    position: relative;
+    top: -12rem;
+    left: 8rem;
+    width: 10%;
+    max-width: 180px;
+    max-height: 444px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Merienda&display=swap');
+
+.square {
+    font-family: 'Merienda', cursive;
+    width: 20rem;
+    height: 20rem;
+    top: 8rem;
+    position: relative;
+    margin: 0 auto;
+    font-size: 13px;
+    color: #333;
+    text-align: justify;
+
+}
+.square h1 {
+    position: relative;
+    left: 3rem;
+    font-size: 20px;
+    color: rgb(126, 125, 125);
+    
+}
+
+.square p {
+    position: relative;
+    font: 12px ;
+    top: 0rem;
+    line-height: 25px;
+    color: rgb(85, 84, 84);
+}
+
+.square b {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left: 0rem;
+    top: 0rem;
+    margin: 0;
+    font-weight: 200;
+    color: rgb(218, 216, 216);
+    font-size: 2rem;
+    font-style: italic;
+}
+
+@media( min-width: 50rem){
+.corpo {
+        position: relative;
+       
+        height: 350px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 150px;
+        grid-template-areas: "balao boneca";
+       
+    }
+
+
+
+.boneca { 
+        position: relative;
+        top: 10rem;
+        left: -2rem;
+       
+}
+.boneca img {
+    position: relative;
+    left: 2rem;
+    width: 80%;
+        
+    }
+
+
+.square {
+    
+    width: 80%;
+    position: relative;
+    top: -2rem;
+}
+.square p {
+    font-size: 100%;
+}
+
+}

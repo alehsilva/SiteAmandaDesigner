@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0374f770.chunk.css",
+    "main.js": "/static/js/main.0c23d00e.chunk.js",
+    "main.js.map": "/static/js/main.0c23d00e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.34f306bf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.34f306bf.js.map",
+    "static/js/2.2f185875.chunk.js": "/static/js/2.2f185875.chunk.js",
+    "static/js/2.2f185875.chunk.js.map": "/static/js/2.2f185875.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a95d5ab89276462d893027cfd3761243.js": "/precache-manifest.a95d5ab89276462d893027cfd3761243.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0374f770.chunk.css.map": "/static/css/main.0374f770.chunk.css.map",
+    "static/js/2.2f185875.chunk.js.LICENSE.txt": "/static/js/2.2f185875.chunk.js.LICENSE.txt",
+    "static/media/boneca-manutencao.webp": "/static/media/boneca-manutencao.19269e03.webp",
+    "static/media/estilo.css": "/static/media/fundo.6415ecb3.webp",
+    "static/media/icon-facebook.webp": "/static/media/icon-facebook.64e0c7b5.webp",
+    "static/media/icon-instagram.webp": "/static/media/icon-instagram.85af954c.webp",
+    "static/media/icon-whatsapp.webp": "/static/media/icon-whatsapp.83baba1f.webp",
+    "static/media/imagem-conteudo.webp": "/static/media/imagem-conteudo.5db25c07.webp",
+    "static/media/logo.webp": "/static/media/logo.cd8286f1.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34f306bf.js",
+    "static/js/2.2f185875.chunk.js",
+    "static/css/main.0374f770.chunk.css",
+    "static/js/main.0c23d00e.chunk.js"
+  ]
+}

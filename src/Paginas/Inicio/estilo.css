@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#principal {
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.conteudo {
+    margin-top: 50px;
+    width: 60%;
+    height: 30rem;
+    text-align: center;
+
+}
+
+.midias {
+    position: relative;
+    left: -5px;
+    
+}
+
+.midias img{
+    height: 3rem;
+    opacity: 0.5;
+    filter: contrast(20%);
+    
+}
+
+.logo img{
+    height: 4.5rem;
+}
+
+.imagem-corpo img{
+   
+    width: 30%;
+    min-width: 250px;
+}
+
+.bloco-botoes {
+    
+    margin: 0 auto;
+    width: 15rem;
+    height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+    top: 2rem;
+}
+
+
+.botao {
+    background: #111;
+    width: 7rem;
+    height: 40px;
+    border-radius: .3rem;
+
+    border: 0;
+    box-shadow:#ccc 1px 5px 30px; 
+    cursor: pointer;
+
+    color: #fff;
+    transition: 0.5s;
+}
+
+.botao:hover {
+    background: #333;
+    
+}
+.boneca {
+    
+    z-index: 999;
+    right: 1rem;
+    position: absolute;
+    right:    0;
+    bottom:   0;
+    
+}
+
+
+
+
+@media( min-width: 50rem){
+
+.midias {
+    grid-area: midias;
+}
+.midias a img{
+    transition: 0.8s;
+    height: 4rem;
+    filter: contrast(0%)
+    opacity(1);
+    
+}
+.midias a:last-child{
+
+    filter: contrast(0%);
+}
+
+.midias a img:hover, .midias a:last-child:hover {
+    filter: contrast(100%);
+    
+}
+
+
+.logo {
+    grid-area: logo;
+   
+}
+.logo img{
+    min-height: 5rem;
+    height: 5rem;
+    
+}
+.imagem-corpo {
+    grid-area: imagem-corpo;
+    
+}
+.imagem-corpo img {
+    position: relative;
+    left: 2rem;
+    min-width: 20rem;
+}
+
+
+.bloco-botoes {
+    grid-area: bloco-botoes;
+    min-width: 10rem;
+}
+
+
+.conteudo {
+    transition: 3s;
+    transform: rotateY(360deg);
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    min-width: 400px;
+    
+    grid-template-columns: 23rem 20rem;
+    grid-template-rows: 3rem 8rem 5rem;
+    grid-template-areas: "midias imagem-corpo"
+                         "logo imagem-corpo"
+                         "bloco-botoes imagem-corpo";
+}
+}
