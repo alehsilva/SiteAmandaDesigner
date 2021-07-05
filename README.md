@@ -1,5 +1,6 @@
 # Site Amanda Designer
 
+Design feito com React/Html/Css
  
 ![image](https://user-images.githubusercontent.com/46385659/124508271-fb46de00-dda5-11eb-952f-e443b8a95dd8.png)
 
